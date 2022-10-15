@@ -1,21 +1,26 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
-  *main - entry point
-  *Return: always 0
-  */
+ * main - Entry point
+ * Description: prints numbers
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
 	int n;
 
-	for (n = '0'; n <= 9; n++)
-	{
+	for (n = '0'; n <= '9' ; n++)
+{
 		putchar(n);
-	if (n != '9')
-	{
-		putchar(',');
-		putchar(' ');
-	}
-	}
-	putchar('\n');
-	return (0);
+
+		if (n != '9')
+		{
+			putchar(',');
+			putchar(' ');
 }
+}
+
+			putchar('\n');
+		return (0);
+}
+
