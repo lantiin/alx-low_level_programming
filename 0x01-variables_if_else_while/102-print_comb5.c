@@ -24,8 +24,15 @@ int main(void)
 			putchar(' ');
 			putchar(k);
 			putchar(j);
+		if (c + i + k + j == 35 && c == 9)
+		{
+			break;
+		}
+			else
+		{
 			putchar(',');
 			putchar(' ');
+		}
 		}
 		}
 	}
