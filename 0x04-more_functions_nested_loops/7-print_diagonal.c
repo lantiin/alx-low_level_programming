@@ -13,8 +13,8 @@ void print_diagonal(int n)
 		b = 0;
 		while (b < a)
 		{
-		_putchat(' ');
-		b++
+		_putchar(' ');
+		b++;
 		}
 
 		_putchar ('\\');
