@@ -9,8 +9,6 @@
 
 int main(int argc, char *argv[])
 {
-	int a = 0;
-
-	printf("%s\n", argv[a]);
+	printf("%s\n", argv[argc * 0]);
 	return (0);
 }
